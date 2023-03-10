@@ -8,3 +8,4 @@ response = requests.get(url)
 d = response.json()
 page = d["archived_snapshots"]["closest"]["url"]
 webbrowser.open(url)
+
